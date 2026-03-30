@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool checkStrings(string s1, string s2) {
+        //2840
         int even[26] = {0};
         int odd[26] = {0};
 
