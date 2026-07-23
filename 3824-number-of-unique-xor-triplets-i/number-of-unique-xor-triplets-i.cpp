@@ -4,9 +4,9 @@ public:
         int n=nums.size();
         if(n==1||n==2)
         return n;
-        int ans=1;
+        int ans=1; //2^0
         while(ans<=n){
-            ans*=2;
+            ans*=2; //ans=(ans<<1);
         }
         return ans;
     }
